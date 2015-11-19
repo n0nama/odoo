@@ -179,7 +179,7 @@
                         }
                     }
                 }
-                var missing = odoo.__DEBUG__.get_missing_jobs();
+                /*var missing = odoo.__DEBUG__.get_missing_jobs();
                 var failed = odoo.__DEBUG__.get_failed_jobs();
                 var unloaded = _.filter(debug_jobs, function (job) { return job.missing; });
 
@@ -193,7 +193,7 @@
 
                 if (odoo.debug || !_.isEmpty(failed) || !_.isEmpty(unloaded)) {
                     console[_.isEmpty(unloaded) ? 'info' : 'error'].apply(console, log);
-                }
+                }*/
             }
         },
         process_jobs: function (jobs, services) {

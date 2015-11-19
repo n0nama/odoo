@@ -14,5 +14,5 @@
     ],
     'qweb': ['static/src/xml/web_planner.xml'],
     'installable': True,
-    'auto_install': True,
+    'auto_install': False,
 }
