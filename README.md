@@ -1,0 +1,1 @@
+Custom ODOO server with a new design. Specially for BCLOUDORG
